@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--begin of header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="./index.html">Portifo<span>lio</span></a>
+            </div>
+            <ul>
+                <li><a class="navbar-text" href="#">Início</a></li>
+                <li><a class="navbar-text" href="#">Projetos</a></li>
+                <li><a class="navbar-text" href="#">Habilidades</a></li>
+                <li><a class="navbar-text" href="#">Contatos</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!--finish of header -->
+    <main>
+        <div class="container-cadastro">
+            <div class="form-image">
+                <img src="./pictures/undraw_group.svg" alt="imagem-cadastro">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname"> Primeiro Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="lastname"> Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="firstname"> Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="number"> Telefone</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password"> Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Confirme sua senha</label>
+                            <input id="password" type="password" name="confirm-password" placeholder="Confirme a sua senha" required>
+                        </div>
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="famele" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="others" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="continue-button">
+                        <button><a href="#">Confirmar</a></button>
+
+                    </div>
+                   
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-style">
+            <div class="footer-text1">
+                <h5>Desenvolvido por Thiago Ferreira Rovere</h5>
+            </div>
+            <div class="footer-text2">
+                <h6>2022</h6>
+
+            </div>
+        </div>
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
